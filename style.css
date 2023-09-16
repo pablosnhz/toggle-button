@@ -13,6 +13,10 @@ body {
     transition: 0.5s;
 }
 
+body.active {
+    background-color: white;
+}
+
 #toggle {  /* caja para el boton */
     position: relative;
     display: block;
@@ -21,6 +25,7 @@ body {
     border-radius: 160px;
     background: #423e3e;
     transition: 0.5s;
+    cursor: pointer;
     box-shadow: inset 0 8px 40px;
 }
 
@@ -34,4 +39,9 @@ body {
     border-radius: 50%;
     transform: scale(0.9);
     box-shadow: 0 8px 40px;
+    transition: 0.5s;
+}
+
+#toggle.active .botton {
+    left: 160px;
 }
