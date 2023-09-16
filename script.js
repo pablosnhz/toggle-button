@@ -4,6 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     toggle.onclick = function() {
         toggle.classList.toggle('active');
-        body.classList.toggle('active');
+        body.classList.toggle('active'); // boton con desplazamiento
     }
 });
